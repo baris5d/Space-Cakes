@@ -11,3 +11,4 @@ You can write your code by which programming language you want.
 * Please don't forget to add the questions into README file.
 * Also add performance test of your code into if any.
 * Don't forget to drink coffee.
+* Never judge to Baris's English.

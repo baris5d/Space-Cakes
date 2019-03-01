@@ -38,7 +38,7 @@ Muggs Paulie TheJoker 2 4
 Boody MrHammer 5 6
 ```
 
-**Input 2 **
+**Input 2**
 ```
 10
 a 200

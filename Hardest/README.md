@@ -1,4 +1,4 @@
 # Space Cakes
 Eye Triple E Training
 
-This folder include Hardest questions.
+This folder includes Hardest questions.

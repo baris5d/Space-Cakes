@@ -1,4 +1,4 @@
 # Space Cakes
 Eye Triple E Training
 
-This folder include Extreme questions.
+This folder includes eXtreme questions.

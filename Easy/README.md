@@ -1,4 +1,4 @@
 # Space Cakes
 Eye Triple E Training
 
-This folder include Easy questions.
+This folder includes Easy questions.

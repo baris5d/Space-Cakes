@@ -15,10 +15,4 @@ The second line contains N+1 integers, representing the elements of the array.
 #### Standard output
 The template calls your function and outputs the result.
 
-| Input | Output |
-| :- | :- |
-| `1`<br/>`1 1` | `1`<br/><br/> |
-| `4`<br/>`3 3 3 3 3` | `3`<br/><br/> |
-| `7`<br/>`6 3 1 7 5 2 1 4` | `1`<br/><br/> |
-
 [Source Link](https://csacademy.com/contest/interview-archive/task/find-any-duplicate/statement/)

@@ -22,9 +22,9 @@ Print the answer modulo 10^9 + 7 on the first line.
 * 1 <= N <= 5 * 10^4
 * 1 <= V(i) <= N for 1 <= i <= N 
 
-​| Input | Output|
+​| Input | Output |
 | :- | :- |
-| 3<br/>1 3 3 <br/><br/> | 24 <br/><br/> |
+| `3`<br/>`1 3 3` <br/><br/> | `24` <br/><br/> |
 
 
 

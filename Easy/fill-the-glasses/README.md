@@ -19,7 +19,7 @@ The capacities of the glasses are integers between 1 and 1000
 
 ​| Input | Output | Explanation |
 | :- | :- | :- |
-| 5 4<br/>1 2 3 2 1 | 1 | Filling the glasses with capacities 2, 3, 2, 1 requires 8 units. <br/>This way, it's enough to open just 11 bottle. |
+| 5 4<br/>1 2 3 2 1 | 1 <br/><br/>| Filling the glasses with capacities 2, 3, 2, 1 requires 8 units. <br/>This way, it's enough to open just 11 bottle. <br/><br/>|
 
 
 

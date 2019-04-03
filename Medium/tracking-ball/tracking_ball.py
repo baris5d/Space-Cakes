@@ -70,7 +70,7 @@ def simulate(balls, d, t):
         # Yaşadıysak ivmeleri ters çevir
         balls[b].v = 0 - balls[b].v
         balls[b + 1].v = 0 - balls[b + 1].v
-        balls[b+1].x -= balls[b].v # Vuran topun etkisiyle hareket ettir
+        balls[b + 1].x -= balls[b].v # Vuran topun etkisiyle hareket ettir
 
       balls[b].x += balls[b].v # Topu hareket ettir
 
@@ -82,7 +82,7 @@ def simulate(balls, d, t):
         balls[b].x = -1
 
 
-  return balls[d-1].x
+  return balls[d - 1].x
 
 # Verilen değerleri simulasyona sok
 for s in scenarios:

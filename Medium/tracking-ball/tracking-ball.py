@@ -11,12 +11,18 @@ def move(t,balls,d):
             balls[b][0] += balls[b][1]
             if balls[b][0] >= 100 or balls[b][0] <= 0:
                 if b==(d-1):
-                    break
+                    # Eğer top istenilen index’se bunun konumunu döndür direkt
+                    if balls[b][0]>=100:
+                        return 100
+                    else:
+                        return 0
                 else:
+                    # eğer cebe girdiyse index'in dışına çıkart, bir daha hesaba katılmasın.
                     balls[b][0] = -10
                     balls[b][1] = 0
             if (b+1) < len(balls):
-                if balls[b][0] >= balls[b+1][0]:
+                if balls[b][0]+1 >= balls[b+1][0]: # bu kontrolde bir sorun var
+                    #çarpıştıysa yönlerini değiştir.
                     balls[b][1] = 0 - balls[b][1]
                     balls[b+1][1] = 0 - balls[b+1][1]
     return balls[d-1][0]
@@ -24,7 +30,6 @@ def move(t,balls,d):
 for i in range(0,n):
     scenerio.append(list(map(int, input().split())))
 
-print(scenerio)
 
 for y in scenerio:
     for i in range(y[0]):

@@ -21,7 +21,7 @@ def move(t,balls,d):
                     balls[b][0] = -10
                     balls[b][1] = 0
             if (b+1) < len(balls):
-                if balls[b][0]+1 >= balls[b+1][0]: # bu kontrolde bir sorun var
+                if balls[b][1]>0 and balls[b][0]+1 >= balls[b+1][0] or balls[b][1]<0 and balls[b][0]-1 >= balls[b+1][0]: # bu kontrolde bir sorun var
                     #çarpıştıysa yönlerini değiştir.
                     balls[b][1] = 0 - balls[b][1]
                     balls[b+1][1] = 0 - balls[b+1][1]

@@ -1,6 +1,7 @@
 # Space Cakes
+We created a repository to collect IEEE training solutions as a Space Cakes team from Eastern Mediterranean University. You may send your own questions and solutions or if you have better idea for a question which we solved, you can contribute us.
 
-Eye Triple E Training
+IEEE 24 Hours Programming Competition Training 
 
 You can write your code in any programming language you want.
 
